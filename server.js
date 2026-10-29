@@ -11,7 +11,7 @@ function verifyToken(req, res, next) {
 }
 app.get('/api/check-update', verifyToken, (req, res) => {
   res.json({
-    latestVersion: "1.2,0"
+    latestVersion: "1.2.0",
     downloadUrl: "https://github.com/NeogenesisFuture/NeogenesisFuture/releases/latest/download/mod-actualizado.zip"
 });
     });
